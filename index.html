@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Character Creation Project</title>
+</head>
+
+<body>
+  <h1>Character Creation</h1>
+  <p>Fill out the forms below to create your character!</p>
+  
+  <form id="character-creation">
+    <label for="char-name">Name</label>
+    <input id="char-name" type="text">
+    <label for="char-height">Height inches</label>
+    <input id="char-height" type="text">
+    <label for="char-age">Age years</label>
+    <input id="char-age" type="text">
+
+    <p>Favorite Food</p>
+    <select id="fav-food">
+      <option value=" Steak">Steak</option>
+      <option value=" Salad">Salad</option>
+      <option value=" Fried Potatoes">Fried Potatoes</option>
+      <option value=" Beans">Beans</option>
+    </select>
+    
+    <p>Favorite Activity</p>
+    <input type="radio" name="activity" value=" Swimming" id="swim" checked>
+    <label for="swim">Swimming</label>
+    <input type="radio" name="activity" value=" Bird Watching" id="brd-watch" checked>
+    <label for="brd-watch">Bird Watching</label>
+    <input type="radio" name="activity" value=" Watching Movies" id="wtc-mov" checked>
+    <label for="wtc-mov">Watching Movies</label>
+
+    <button type="submit" class="btn">Show Me!</button>
+  </form>
+
+  <h2>Results</h2>
+  <p>Character Name:<span id="output-name"> </span></p>
+  <p>Character Height:<span id="output-height"> </span></p>
+  <p>Character Age:<span id="output-age"> </span></p>
+  <p>Favorite Food:<span id="output-fav-food"> </span></p>
+  <p>Favorite Activity:<span id="output-fav-act"> </span></p>
+  <p>Character Ability:<span id="output-ability"> </span></p>
+</body>
+
+</html>
