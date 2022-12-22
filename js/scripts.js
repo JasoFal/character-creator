@@ -40,7 +40,6 @@ function charAbilityCreator(event) {
     charAbility = ` Die Instantly`;
   }
 
-
   document.getElementById(`output-name`).innerText = charName;
   document.getElementById(`output-height`).innerText = charHeight;
   document.getElementById(`output-age`).innerText = charAge;
