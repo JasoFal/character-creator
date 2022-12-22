@@ -40,6 +40,7 @@ function charAbilityCreator(event) {
     charAbility = ` Die Instantly`;
   }
 
+
   document.getElementById(`output-name`).innerText = charName;
   document.getElementById(`output-height`).innerText = charHeight;
   document.getElementById(`output-age`).innerText = charAge;
@@ -52,3 +53,8 @@ window.addEventListener(`load`, function() {
   const form = document.getElementById(`character-creation`);
   form.addEventListener(`submit`, charAbilityCreator);
 });
+
+
+// Alternative method for pulling form input inner text.
+// let favFd = document.getElementById(`fav-food`);
+// let favFood = favFd.options[favFd.selectedIndex].innerText;
